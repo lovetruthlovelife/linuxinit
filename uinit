@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#
+
+#
+SELFDIR=$(dirname "0")
+
+#
+cd "$LFDIR"
+
+cp -R HOME_vim ~/.vim
+

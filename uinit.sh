@@ -1,6 +1,8 @@
 #!/bin/bash
 
+CURDIR='pwd'
 SELFDIR=$(dirname "$0")
+SELFDIR=$CURDIR/$SELFDIR
 
 #VIMRC_RC="/etc/vim/"
 
@@ -19,6 +21,9 @@ cp vimrc ~/.vimrc
 echo '更新bash配置文件...'
 cp profile ~/.profile
 cp bashrcrc ~/.bashrc
+
+#并没有进行
+
 
 #初始化nano配置
 echo '初始化nano配置...'
